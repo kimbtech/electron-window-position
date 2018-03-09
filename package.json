@@ -4,11 +4,11 @@
   "description": "Easy and intuitive window positioning for electron browser windows.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "electron test.js"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/kimbtech/electron-window-position"
+    "url": "https://github.com/kimbtech/electron-window-position"
   },
   "keywords": [
     "electron",
@@ -18,5 +18,9 @@
     "center"
   ],
   "author": "kimbtech",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.8.3"
+  },
+  "homepage": "https://github.com/kimbtech/electron-window-position"
 }

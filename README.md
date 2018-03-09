@@ -1,2 +1,9 @@
-# electron-window-position
-Easy and intuitive window positioning for electron browser windows.
+# Electron-Window-Position
+>
+> Easy and intuitive window positioning for electron browser windows.
+>
+
+Where to open an ...
+
+## Usage
+
