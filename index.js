@@ -84,10 +84,17 @@ module.exports = class WindowPosition {
 	 * @throws {NotReadyException} fired if electron app module is not ready
 	 */
 	getActiveScreenCenter( width, height ){
+		// make sure, the window opens in a possible position
+		//	huge window can not open centered on small screen
+		if( this.display.bounds.width < width || this.display.bounds.height < height ){
+			//use top left as fallback
+			return this.getActiveScreenTopLeft();
+		}
+
 		// top left position
 		var topleft = this.getActiveScreenTopLeft();
 		topleft.x = topleft.x - 20;
-		topleft.y = topleft.y - 20;
+		topleft.y = topleft.y - 20;		
 
 		// calculate center
 		var center = {
