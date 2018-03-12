@@ -1,6 +1,6 @@
 {
   "name": "electron-window-position",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy and intuitive window positioning for electron browser windows.",
   "main": "index.js",
   "scripts": {
