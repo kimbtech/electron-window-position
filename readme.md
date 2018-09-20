@@ -57,5 +57,5 @@ try{
 
 ```
 
-See also JSDoc at [GitHub Pages](https://kimbtech.github.io/electron-window-position/WindowPosition.html)
+See also JSDoc at [GitHub Pages](https://kimb-technologies.github.io/electron-window-position/WindowPosition.html)
 
